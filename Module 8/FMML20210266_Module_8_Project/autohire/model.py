@@ -12,7 +12,7 @@ class BayesianMulticlassModel:
 
     def fit(self, x_train: typing.Iterable[np.ndarray], y_train: typing.Iterable[int]):
         for x, y in zip(x_train, y_train):
-        self.counts[y] += x
+            self.counts[y] += x
 
     def predict(self, counts_vector):
         class_frequencies = np.sum(self.counts, axis=1)
