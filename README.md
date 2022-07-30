@@ -1,5 +1,4 @@
 # Modern-Machine-Learning
-Note: Uploaded all files again on 21/06 as old repo was deleted by mistake.
 
 Course Link: [Foundations of Modern Machine Learning](https://ihub-data.iiit.ac.in/mml2021/)
 
